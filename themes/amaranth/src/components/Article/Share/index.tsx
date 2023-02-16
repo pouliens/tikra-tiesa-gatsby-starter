@@ -46,9 +46,9 @@ const ArticleShare = ({ post }: ArticleShareProps): JSX.Element => {
   const relatedTwitterNames = generateRelatedTwitterNames(config);
 
   return (
-    <S.Wrapper aria-label="Share on social media">
+    <S.Wrapper aria-label="Dalintis socialiniuose tinkluose">
       <S.LinkWrapper>
-        <S.Label>SHARE</S.Label>
+        <S.Label>Dalintis</S.Label>
         <S.LinkGrid>
           <FacebookShareButton url={url} quote={excerpt}>
             <FacebookIcon size={40} />

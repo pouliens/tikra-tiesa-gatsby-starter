@@ -65,11 +65,24 @@ export const createHeadings = (slug: string): Headings => ({
 });
 
 const BlockquoteStyle = styled.blockquote`
-  padding: 0 16px;
+  padding: 32px 16px;
 
   background-color: var(--color-grey-100);
 
   border-left: 8px solid var(--color-primary-300);
+
+  p {
+    font-style: italic;
+    font-size: 1.4rem;
+  }
+
+  *:before {
+    content: "„";
+  }
+
+  *:after {
+    content: "“";
+  }
 `;
 
 type BlockquoteProps = {

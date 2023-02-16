@@ -17,7 +17,7 @@ const ArticleInfo = ({ post }: ArticleInfoProps): JSX.Element => {
     "LLL d, y"
   )}`;
 
-  const timeToRead = ` ⋅ ${post.timeToRead} min read`;
+  const timeToRead = ` ⋅ ${post.timeToRead} min`;
 
   const infoCaption = `${publicationDate}${timeToRead}`;
 

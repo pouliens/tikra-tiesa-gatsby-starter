@@ -10,6 +10,7 @@ export const Wrapper = styled.section`
 
   grid-auto-flow: row;
   grid-gap: 8px;
+  margin: 64px 0;
 `;
 
 export const LinkWrapper = styled.div`

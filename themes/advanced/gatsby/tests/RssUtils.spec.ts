@@ -18,7 +18,7 @@ const testQuery = {
 } as unknown as GatsbyFeedQuery;
 
 const testFeedData: GatsbyPluginFeedData = {
-  title: "test",
+  title: "Tikra Tiesa",
   site_url: "https://example.com/",
   plugins: [],
   generator: "TestGen",

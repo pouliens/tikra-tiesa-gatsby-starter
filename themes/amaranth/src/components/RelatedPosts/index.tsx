@@ -24,7 +24,7 @@ type RelatedPostsProps = {
 
 const RelatedPosts = ({ list }: RelatedPostsProps): JSX.Element => (
   <Wrapper>
-    <Label>RELATED POSTS</Label>
+    <Label>Panašūs</Label>
     <FeedListing noHero listing={list} />
   </Wrapper>
 );
